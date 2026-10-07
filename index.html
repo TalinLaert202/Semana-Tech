@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana Tech 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="conteudo-cabecalho">
+            <h1>Semana Tech 2026</h1>
+            <section class="filtros-oficinas">
+                <input type="text" id="campo_busca" placeholder="🔎| Buscar oficina...">
+                <select id="campo_ordenacao">
+                    <option value="selecione">
+                        Selecione
+                    </option>
+                    <option value="menor">
+                        Menor valor
+                    </option>
+                    <option value="maior">
+                        Maior valor
+                    </option>
+                </select>
+            </section>
+            <a href="inscricoes.html" id="link_inscricoes">
+                Minhas inscrições (0)
+            </a>
+        </div>
+    </header>
+    <div id="mensagem_sucesso" class="mensagem-sucesso">
+        Inscrição feita com sucesso!
+    </div>
+    <section class="area-slider">
+        <div class="slider">
+            <div class="imagem">
+                <img id="imagem_slider" src="img/banner1.png" alt="Semana Tech 2026">
+            </div>
+            <div class="controles-slider">
+                <button id="botao_anterior"><<</button>
+                <button id="botao_proximo">>></button>
+            </div>
+        </div>
+    </section>
+    <main class="conteudo-principal">
+        <h2>Oficinas disponíveis</h2>
+        <section id="lista_oficinas" class="lista-oficinas">
+        </section>
+    </main>
+    <script src="script.js"></script>
+<footer class="rodape">
+    <p>Semana Tech 2026</p>
+    <p>Tecnologia, inovação e conhecimento.</p>
+    <p>© 2026 - Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
